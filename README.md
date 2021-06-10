@@ -17,10 +17,14 @@ To run the program, navigate to the directory containing the project and run
 
 The command will automatically open a GUI to see Pacman operating in the world. 
 
+<br>
+
 #### Random Forest Classifier
 To run the Random Forest Classifier run
 
     python pacman.py --pacman ClassifierAgent
+
+<br>
 
 #### Training Set
 A training set is provided in the file `good-moves.txt`. Each line in the file is a vector identifying a state-action pair:
@@ -31,6 +35,7 @@ A training set is provided in the file `good-moves.txt`. Each line in the file i
   - 2 = *South*
   - 3 = *West*
 
+<br>
 
 #### Overriding the Training Set
 The provided training set may be overridden using the command
@@ -41,7 +46,7 @@ This command will allow to control Pacman using the keyboard.
 
 The various states of the game (together with the action performed) will be registered and saved as a vector in `good-moves.txt`. This data is written to moves.txt. 
 
-> **IMPORTANT:** This will not append new text to the `good-moves.txt` file, rather, it will override it !!
+> **IMPORTANT:** The above command will not append new text to the `good-moves.txt` file, rather, it will override it !!
 
 <br>
 <br>
