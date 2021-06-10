@@ -8,21 +8,16 @@ The Pacman code used was developed at *UC Berkeley* for their AI course and made
 <br>
 <br>
 
-## Running the program
+## Starting the Agent
 
-#### Basic command
-To run the program, navigate to the directory containing the project and run
+#### Running the Random Forest Classifier
+To run the Random Forest Classifier, navigate to the directory containing the project and execute the command
 
-    python pacman.py
+    python pacman.py --pacman ClassifierAgent -l <world>
+
+The existing worlds are specified in the folder called `layouts`.
 
 The command will automatically open a GUI to see Pacman operating in the world. 
-
-<br>
-
-#### Random Forest Classifier
-To run the Random Forest Classifier run
-
-    python pacman.py --pacman ClassifierAgent
 
 <br>
 
